@@ -1,28 +1,31 @@
-name : Build and Deploy cecil site
+name: Construire et déployer le site Cecil
 
-on : 
-    push : 
-      branches :
-          - main 
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Récupérer le dépôt
         uses: actions/checkout@v3
-        
-      - name: Setup PHP
+
+      - name: Configurer PHP
         uses: shivammathur/setup-php@v2
         with:
-            php-version: '8.2'
-            
-      - name: Install dependencies
-        run: composer install
-      - name: Build site with Cecil
+          php-version: '8.2'
+
+      - name: Installer les dépendances
+        run: composer install --no-dev --prefer-dist --no-progress --no-suggest
+
+      - name: Générer le site avec Cecil
         run: php vendor/bin/cecil build --baseurl=https://gracevayisiriria.github.io/ProjetCecile/
 
-      - name: Deploy to Github pages
+      - name: Déployer sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
