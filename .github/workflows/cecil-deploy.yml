@@ -50,6 +50,15 @@ jobs:
 
           echo "Themes installed:"
           ls themes
+      - name: Ensure themes folder and install themes
+        run: |
+          mkdir -p themes
+          if [ ! -d "themes/fontawesome" ]; then
+            git clone https://github.com/Cecilapp/theme-fontawesome.git themes/fontawesome
+          fi
+          if [ ! -d "themes/links" ]; then
+            git clone https://github.com/Cecilapp/theme-links.git themes/links
+          fi
 
       - name: Build site with Cecil
         run: php vendor/bin/cecil build --baseurl=https://gracevayisiriria.github.io/ProjetCecile/ --verbose
