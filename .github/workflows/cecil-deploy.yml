@@ -23,25 +23,33 @@ jobs:
           tools: composer
           coverage: none
 
+      - name: Install git
+        run: sudo apt-get update && sudo apt-get install -y git
+
       - name: Validate composer.json and composer.lock
         run: composer validate --no-check-publish
 
       - name: Install dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 
-      - name: Install Fontawesome theme
+      - name: Ensure themes folder and install themes
         run: |
           mkdir -p themes
+          echo "Installing Cecil themes..."
           if [ ! -d "themes/fontawesome" ]; then
             git clone https://github.com/Cecilapp/theme-fontawesome.git themes/fontawesome
+          else
+            echo "Fontawesome theme already exists."
           fi
 
-      - name: Install Links theme
-        run: |
-          mkdir -p themes
           if [ ! -d "themes/links" ]; then
             git clone https://github.com/Cecilapp/theme-links.git themes/links
+          else
+            echo "Links theme already exists."
           fi
+
+          echo "Themes installed:"
+          ls themes
 
       - name: Build site with Cecil
         run: php vendor/bin/cecil build --baseurl=https://gracevayisiriria.github.io/ProjetCecile/ --verbose
