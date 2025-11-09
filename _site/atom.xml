@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="https://gracevayisiriria.github.io/ProjetCecile/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://gracevayisiriria.github.io/ProjetCecile/</id>
+  <title>Grace vayisiriria kamabale</title>
+  <subtitle><![CDATA[SEO/OG description.]]></subtitle>
+  <link href="https://gracevayisiriria.github.io/ProjetCecile/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://gracevayisiriria.github.io/ProjetCecile/" rel="alternate" type="text/html" />
+  <updated>2025-11-09T17:09:07+01:00</updated>
+  <author>
+    <name>John Doe</name>
+    <uri>https://cecil.app</uri>
+  </author>
+</feed>
