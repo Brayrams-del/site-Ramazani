@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '4.2.0',
-        'version' => '4.2.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => null,
+        'reference' => '5fb83f51b0027e2b93501fb0bd4e4eacd357e38e',
         'name' => 'cecil/links',
         'dev' => true,
     ),
     'versions' => array(
         'cecil/links' => array(
-            'pretty_version' => '4.2.0',
-            'version' => '4.2.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => null,
+            'reference' => '5fb83f51b0027e2b93501fb0bd4e4eacd357e38e',
             'dev_requirement' => false,
         ),
         'cecil/theme-fontawesome' => array(
