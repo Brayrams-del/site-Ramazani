@@ -63,5 +63,5 @@ languages:
 theme:
   # - fontawesome
   # - links
-  - pwa
+  # - pwa
   - netlify
