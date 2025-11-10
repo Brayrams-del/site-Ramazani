@@ -15,8 +15,8 @@ menu:
     <div class="hero-content">
       <div class="hero-text">
         <span class="greeting">👋 Salut, moi c'est</span>
-        <h1><strong>Grace Vayisiriria</strong></h1>
-        <p class="tagline">Développeuse passionnée par la technologie, les projets innovants et le partage de connaissances.</p>
+        <h1><strong>Grace Vayisiriria </strong></h1>
+        <p class="tagline">Développeur passionné par la technologie, les projets innovants et le partage de connaissances.</p>
         <div class="hero-buttons">
           <a href="#projets" class="btn btn-primary">Voir mes projets</a>
           <a href="#contact" class="btn btn-secondary">Me contacter</a>
