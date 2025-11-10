@@ -1,9 +1,0 @@
-@import 'tailwindcss';
-@source './layouts/**/*.html.twig';
-@source './../themes/links/layouts/**/*.html.twig';
-@import './../themes/links/assets/tailwind.css';
-
-/**
- * You can add your custom Tailwind CSS styles here,
- * then run `npm run css:build` to compile.
- */

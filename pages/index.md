@@ -1,26 +1,22 @@
 ---
-blocks:
-  - name: content # page content
-  - name: links   # page links
-  - name: social  # social accounts
-links:
-  - title: Vayisiririablog
-    url: https://arnaudligny.fr/blog/
-    color: '#1A4A91'
-    icon: solid:blog
-  - title: Source code of graceblog
-    url: https://github.com/Cecilapp/Links/
-    color: '#000'
-    icon: brands:github
-  - title: Ma page Linkden
-    url: https://www.linkedin.com/showcase/cecilapp/
-    color: '#0A66C2'
-    icon: brands:linkedin
-  - title: Informatique appliquée à la gestio des entreprises
-    url: https://www.paypal.com/donate/?hosted_button_id=B93F9MKHFX7T6
-    color: '#FED13C'
-    icon: brands:paypal
-  - title: université de l'assomption au congo
-    url: http://localhost/
+title: Acceuil
 ---
-Bonjour cette carte a été faite par Grace comme tp de cloud computing 👋
+"Bienvenue sur le site de Christien Migheri" 
+
+
+"Développeur passionné par la technologie, les projets de conception et le partage de connaissances."
+---
+
+# 👋 Salut, moi c'est **Christien Migheri**
+
+Bienvenue sur mon site personnel !  
+Je suis passionné par le **développement logiciel**, la **gestion de projets** et la **création d'applications utiles**, notamment pour les **des entreprises**.
+
+Sur ce site, tu trouveras :
+- 💻 Mes projets et applications
+- 📘 Des tutoriels et ressources techniques
+- 🙏 Des initiatives liées à la foi et à la technologie
+
+> “Le code, c’est ma façon d’aider et de servir.”
+
+[GitHub](https://github.com/migherichristien)

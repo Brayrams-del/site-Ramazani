@@ -1,18 +1,6 @@
 {
-    "name": "vgkdev/projet-cecile",
-    "autoload": {
-        "psr-4": {
-            "Vgkdev\\ProjetCecile\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Gracevayisirirya",
-            "email": "kambalegraceduciel@gmail.com"
-        }
-    ],
     "require": {
-        "cecil/cecil": "^8.70"
+        "cecil/theme-docs": "^2.42"
     },
     "config": {
         "allow-plugins": {
